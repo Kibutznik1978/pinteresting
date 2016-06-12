@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
+
+
 $body-bg:                          #ecf0f1;
 $font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                    45px;
@@ -7,7 +9,26 @@ $navbar-default-bg:                white;
 $navbar-default-brand-color:       #c0392b;
 $brand-primary:                    #c0392b;
 $jumbotron-bg:                     white;
+$navbar-margin-bottom:				0px;
 
+
+
+
+
+.jumbotron {
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+	background-image: url(/assets/747-0d335a571d21da14cf3eec909fc64315f1339c4ec830d93639f781dbf5dc6e87.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 250px;
+
+    background-repeat: no-repeat;
+    color: none;
+    overflow: hidden;
+
+}
 
 
 
@@ -17,6 +38,8 @@ $jumbotron-bg:                     white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+
 
 .center {
      text-align: center;
